@@ -1,6 +1,10 @@
 myIntegerVariable = 10
 IO.puts myIntegerVariable
 
+mySecondIntegerVar = 20
+sum = myIntegerVariable + mySecondIntegerVar
+IO.puts sum
+
 myStringVariable = 'Single Quoted Text'
 IO.puts myStringVariable
 
