@@ -11,3 +11,9 @@ IO.inspect true and var1
 
 var1 = true
 IO.inspect !var1
+
+var1 = 0b1101
+var2 = 0b1111
+
+use Bitwise #must before using bitwise operators
+IO.inspect var1 &&& var2
