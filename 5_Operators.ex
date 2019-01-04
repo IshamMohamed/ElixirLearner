@@ -17,3 +17,10 @@ var2 = 0b1111
 
 use Bitwise #must before using bitwise operators
 IO.inspect var1 &&& var2
+
+list1 = [1,2,4]
+list2 = [3,5,6]
+IO.inspect list1 ++ list2
+IO.inspect list1 -- [4]
+
+IO.inspect "foo" <> "bar" #string concat
