@@ -24,3 +24,6 @@ IO.inspect list1 ++ list2
 IO.inspect list1 -- [4]
 
 IO.inspect "foo" <> "bar" #string concat
+
+IO.inspect 1 == 1.0
+IO.inspect 1 === 1.0
