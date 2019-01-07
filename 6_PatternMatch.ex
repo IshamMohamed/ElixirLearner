@@ -6,6 +6,6 @@ IO.puts x
 IO.inspect (var_1)
 IO.inspect(var_2)
 
-{height, width} = {13.56,6}
+{height, width} = {13.56,6/2}
 IO.inspect height
 IO.inspect width
