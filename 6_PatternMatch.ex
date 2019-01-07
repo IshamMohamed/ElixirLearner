@@ -13,5 +13,7 @@ IO.inspect width
 
 #But if you want to do it in the other direction, match value in left, use "pin" operator
 
-^12 = b
-IO.inspect b
+a = 12
+b = 12
+
+IO.inspect (^a = b)
