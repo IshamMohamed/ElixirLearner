@@ -12,8 +12,10 @@ IO.inspect width
 #Pattern matching is matches the value in right side.
 
 #But if you want to do it in the other direction, match value in left, use "pin" operator
-
 a = 12
 b = 12
-
 IO.inspect (^a = b)
+
+#Use "_" if you want to discard something
+[_, [_, {a}]] = ["Random string", [:an_atom, {24}]]
+IO.inspect a
