@@ -9,8 +9,9 @@ end
 
 #Unless condition
 a = false
-unless a === true do
+unless a === false do
    IO.puts "Condition is not satisfied"
-   IO.puts "So this code block is executed"
+else
+   IO.puts "Condition was satisfied!"
 end
 IO.puts "Outside the unless statement"
