@@ -9,3 +9,8 @@ end
 x = 4 
 y = "Avengers #{x}"
 IO.puts(y)
+
+x = "Kuala"
+y = "Lumpur"
+z = x <> " " <> y
+IO.puts(z)
